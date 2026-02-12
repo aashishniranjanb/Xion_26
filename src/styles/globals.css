@@ -1,0 +1,98 @@
+/* T05: Typography Hierarchy + T08: Spacing & Rhythm */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0A0A0A;
+  color: white;
+  font-family: 'Rajdhani', sans-serif;
+  min-height: 100%;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+  background-color: #0A0A0A;
+}
+
+/* ============================
+   SECTION LABEL (Gold Uppercase)
+   ============================ */
+.section-label {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--gold-primary);
+  margin-bottom: 1rem;
+}
+
+/* ============================
+   SECTION HEADLINE
+   ============================ */
+.section-headline {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  line-height: 1.15;
+  margin-bottom: 1.5rem;
+}
+
+/* ============================
+   SECTION BODY TEXT
+   ============================ */
+.section-body {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.75;
+  color: #9ca3af;
+  max-width: 48rem;
+}
+
+/* ============================
+   LAYOUT CONTAINER (T01)
+   ============================ */
+.layout-container {
+  max-width: var(--container-max);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--section-pad-x);
+  padding-right: var(--section-pad-x);
+}
+
+/* ============================
+   CORPORATE SECTION BASE (T08)
+   ============================ */
+.corporate-section {
+  padding-top: var(--section-pad-y);
+  padding-bottom: var(--section-pad-y);
+  position: relative;
+}
+
+/* Selection styling */
+::selection {
+  background-color: rgba(255, 215, 0, 0.3);
+  color: white;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A0A0A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 215, 0, 0.3);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 215, 0, 0.5);
+}

@@ -1,0 +1,24 @@
+:root {
+    --gold-primary: #FFD700;
+    --gold-light: #F4C430;
+    --gold-dark: #DAA520;
+
+    --black-deep: #0A0A0A;
+    --black-primary: #1A1A1A;
+    --black-secondary: #2A2A2A;
+
+    --glass-bg: rgba(26, 26, 26, 0.4);
+    --glass-border: rgba(255, 215, 0, 0.15);
+    --glass-glow: rgba(255, 215, 0, 0.08);
+
+    /* Spacing */
+    --section-pad-y: 7rem;
+    --section-pad-x: 24px;
+    --container-max: 1280px;
+}
+
+@media (min-width: 768px) {
+    :root {
+        --section-pad-x: 60px;
+    }
+}
