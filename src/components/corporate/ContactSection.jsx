@@ -34,8 +34,8 @@ const ContactSection = () => {
                         <SequentialReveal delay={3}>
                             <div className="space-y-2">
                                 <p className="section-label" style={{ marginBottom: '0.5rem' }}>Student Heads</p>
-                                <p className="text-white text-lg">Talha V R A</p>
-                                <p className="text-white text-lg">Akhilesh M</p>
+                                <p className="text-white text-lg">Student 1</p>
+                                <p className="text-white text-lg">Student 2</p>
                             </div>
                         </SequentialReveal>
                     </div>
